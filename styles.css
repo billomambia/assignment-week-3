@@ -1,7 +1,8 @@
 .headin{
-    background-image: url("h.jpg");
+    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/h.jpg");
     background-size: cover;
      height: 700px;
+     width: 100%;
      text-align: center;
 }
 body{ color: white;
@@ -9,14 +10,16 @@ body{ color: white;
 .about{
     text-align: center;
     background-size: cover;
-    height: 700px;
+    height: 350px;
     color: black;
 }
 
 .services{
-    background-image: url("s.jpg");
+    justify-content: center;
+    align-items: center;
+    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/s.jpg");
     background-size: cover;
-    height: 700px;
+    height: 350px;
     text-align: center;
 }
 .heading{
@@ -25,12 +28,19 @@ body{ color: white;
 }
 .pic{
     display: flex;
+    justify-content: center;
     color: black;
     float: left;
     width: 30%;
-    padding-left: 150px;
-}
-.portfolio{
+    padding: 20px;
+    margin: auto;
     
-
 }
+.port .row img{
+    width: 200px;
+    padding: 10px;
+}  
+#last{
+    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/c.jpg");
+}
+
