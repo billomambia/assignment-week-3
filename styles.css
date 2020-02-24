@@ -19,3 +19,18 @@ body{ color: white;
     height: 700px;
     text-align: center;
 }
+.heading{
+    text-align: center;
+    color: black;
+}
+.pic{
+    display: flex;
+    color: black;
+    float: left;
+    width: 30%;
+    padding-left: 150px;
+}
+.portfolio{
+    
+
+}
