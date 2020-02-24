@@ -1,61 +1,21 @@
-#imageh img{
-    
-    width: fit-content;
+.headin{
+    background-image: url("h.jpg");
+    background-size: cover;
+     height: 700px;
+     text-align: center;
 }
-#images img{
-    padding-top: 30px;
-    
-    width: fit-content;
-}
-.about{
-    margin: 20px;
-}
-.about {
-    
-    padding: 10px;
-}
-
-
-.about h4{
-    text-transform: uppercase;
+body{ color: white;
 }
 .about{
     text-align: center;
+    background-size: cover;
+    height: 700px;
+    color: black;
+}
 
-}
-.about p{
-    font-size: medium;
-    
-}
-.about .paragraph p{
-    font-size: larger;
+.services{
+    background-image: url("s.jpg");
+    background-size: cover;
+    height: 700px;
     text-align: center;
-}
-.heading{
-    text-transform: uppercase;
-    text-align: center;
-    
-}
-.row {
-    justify-items: center;
-    padding: 20px;
-    
-}
-.portfolio{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-}
-.portfolio{
-    justify-items: center;
-    
-    
-}
-.portfolio img{
-    
-    position: relative;
-    height: 200px;
-}
-.last{
-    padding-top: 40px;
 }
