@@ -41,7 +41,7 @@ body{ color: white;
     padding: 10px;
 }  
 .img3{
-    color: black;
+    color: white;
     text-align: center;
     background-image: url(/home/bill/Desktop/assignmnt-week-3/background/c.jpg);
     height: 350px;
@@ -58,4 +58,11 @@ body{ color: white;
 }
 .text-center{
     color: black;
+}
+#p1{
+    text-align: center;
+}
+.row .pic{
+    justify-content: center;
+    
 }
