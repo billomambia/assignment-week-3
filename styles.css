@@ -1,5 +1,5 @@
 .headin{
-    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/h.jpg");
+    background-image: url("background/h.jpg");
     background-size: cover;
      height: 700px;
      width: 100%;
@@ -17,7 +17,7 @@ body{ color: white;
 .services{
     justify-content: center;
     align-items: center;
-    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/s.jpg");
+    background-image: url("background/s.jpg");
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -43,7 +43,7 @@ body{ color: white;
 .img3{
     color: white;
     text-align: center;
-    background-image: url(/home/bill/Desktop/assignmnt-week-3/background/c.jpg);
+    background-image: url(background/c.jpg);
     height: 350px;
     width: 1050px;
     background-position: center;
