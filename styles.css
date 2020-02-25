@@ -40,7 +40,7 @@ body{ color: white;
     width: 200px;
     padding: 10px;
 }  
-#last{
+.last{
     background-image: url("/home/bill/Desktop/assignmnt-week-3/background/c.jpg");
 }
 
