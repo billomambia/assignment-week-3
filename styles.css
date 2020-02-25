@@ -40,7 +40,12 @@ body{ color: white;
     width: 200px;
     padding: 10px;
 }  
-.last{
-    background-image: url("/home/bill/Desktop/assignmnt-week-3/background/c.jpg");
+.img3{
+    color: black;
+    text-align: center;
+    background-image: url(/home/bill/Desktop/assignmnt-week-3/background/c.jpg);
+    height: 350px;
+    width: 1050px;
+    background-position: center;
 }
 
