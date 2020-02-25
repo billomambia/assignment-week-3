@@ -12,19 +12,24 @@
     <script src='main.js'></script>
     <title>Delani studios</title>
 </head>
-
+<script>
+function myfun(){
+    var x1=document.getElementById('Name').value;
+    alert("Hey "+ x1 + " we have received your message.Thank you")
+}
+</script>
 <body>
     <div class="container">
         <div>
             <div class="headin">
-                <br><br><br><br><br><br><br><br> <img src="/home/bill/Desktop/assignmnt-week-3/logos/logo.png">
+                <br><br><br><br><br><br><br><br> <img src="logos/logo.png">
                 <h1>WELCOME</h1>
                 <br>
                 <h2>TO DELANI STUDIO</h2>
                 <P>
                     <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT!</h5>
                 </P>
-                <br><br><br><br> <img src="/home/bill/Desktop/assignmnt-week-3/mouse/mouse/mouse_click.png">
+                <br><br><br><br> <img src="mouse/mouse/mouse_click.png">
 
             </div>
             <br>
@@ -150,10 +155,6 @@
         <br>
         <div class="img3">
             <h1>CONTACT</h1>
-            <br>
-            <br>
-            <br>
-
             <form>
                 <div class="row">
                     <div class="col-md-6">
@@ -162,16 +163,17 @@
                     </div>
                     <div class="col-md-6">
                         <input type="email" class="form-control" id="Email" placeholder="Email..."
-                            style="background-color: transparent">
+                            style="background-color: transparent;">
                     </div>
 
                 </div>
                 <br>
 
-                <textarea class="form-control" rows="9" placeholder="your message here..."
-                    style="background-color: transparent" style="text-emphasis-color" id="Message"></textarea>
-                <br><br>
-                <button type="button" id="submit" class="btn btn-primary">submit</button>
+                <div class="form-group">
+                    <textarea class="form-control" style="background-color:transparent; color: white;  "
+                        placeholder="Description..."></textarea>
+                </div>
+                <button type="button" id="submit" class="btn btn-primary" onclick="myfun()">submit</button>
             </form>
         </div>
 
@@ -201,4 +203,4 @@
 
             </div>
 
-</html>  
+</html>
